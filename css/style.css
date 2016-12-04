@@ -5,6 +5,7 @@ html, body{
 	font-family: 'Exo', sans-serif;
     font-weight: 400;
     font-size: 12px;
+    overflow-x: hidden;
 }
 h1{
 	font-size: 3.16em;
@@ -70,6 +71,7 @@ h5{
 	margin: 0 auto;
 	
 }
+/* Icons Section */
 .iconSection{
 	background-image: url("../images/iconsback.jpg");
 	background-repeat: no-repeat;
@@ -98,13 +100,20 @@ h5{
     line-height:150%;
 
 }
-/* SLider mobiles */
+/* Slider mobiles */
 .sliderMobiles {
 	height: 100vh;
+	background-image: url('../images/Slider 1.jpg');
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center top;
+	position: relative;
+	overflow: hidden;
 }
 .sliderMobilesText {
 	padding-top: 288px;
 	padding-left: 165px;
+	color: #fff;
 }
 .fade {
 	opacity: 1;
@@ -113,6 +122,31 @@ h5{
 	width: 100%;
 	height: auto;
 }
+.fade_element {
+	height: 100vh !important;
+}
+.slick-prev {
+	left: initial !important;
+	right: 375px !important;
+	top: 350px !important;
+	z-index: 999;
+}
+.slick-next {
+	right: 165px !important;
+	top: 350px !important;
+}
+.sliderMobileImage {
+	height: 45vh;
+	width: auto;
+	float: right;
+	margin-right: 200px;
+	margin-top: -100px;
+	padding-left: 50px;
+}
+img.mobileImage {
+	width: auto;
+	height: 100%;
+}
 /* Save section */
 .saveSection{
 	padding-top: 2em;
@@ -120,7 +154,7 @@ h5{
     padding-right:20px;
 	text-align: center;
 	background-color: #fff;
-	width: 100vw;
+	width: 100%;
 	height: auto;
 	font-size: 2em;
     line-height:200%;
