@@ -47,6 +47,7 @@ h5{
 }
 .dropdown-toggle:active, .open .dropdown-toggle {
 	background:#FFF !important; color:#000 !important;}
+/* Slide section */
 .slide{
 	max-height: 100vh;
 	position: relative;
@@ -97,7 +98,22 @@ h5{
     line-height:150%;
 
 }
-
+/* SLider mobiles */
+.sliderMobiles {
+	height: 100vh;
+}
+.sliderMobilesText {
+	padding-top: 288px;
+	padding-left: 165px;
+}
+.fade {
+	opacity: 1;
+}
+.fade img {
+	width: 100%;
+	height: auto;
+}
+/* Save section */
 .saveSection{
 	padding-top: 2em;
     padding-left:20px;

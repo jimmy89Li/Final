@@ -11,6 +11,9 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+    <!-- Slick SLider -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -20,16 +23,40 @@
   </head>
   <body>
       <div class="slide">
-
         <div class="slideText">
           <h2>Use Energy On Things That Matter In Your Life</h2>
           <h4>NorthQ designs user friendly technology which allows you to remotely control your home,</br>
 save energy and create a comfortable and safe environment for you and your family.</h4>
         </div>
-        
         <img src="images/landing.jpg">
       </div>
       
+      <div class="sliderMobiles">
+      	<div class="fade" style="opacity: 1">
+      		<div class="fade_element">
+      			<img src="images/slider/slider1.jpg" alt="NorthQ">
+      			<button type="button" class="slick-prev">Previous</button>
+      			<button type="button" class="slick-next">Next</button>
+      		</div>
+      		<div class="fade_element">
+      			<img src="images/slider/slider2.jpg" alt="NorthQ">
+      			<button type="button" class="slick-prev">Previous</button>
+      			<button type="button" class="slick-next">Next</button></div>
+      		<div class="fade_element">
+      			<img src="images/slider/slider3.jpg" alt="NorthQ">
+      			<button type="button" class="slick-prev">Previous</button>
+      			<button type="button" class="slick-next">Next</button></div>
+      		<div class="fade_element">
+      			<img src="images/slider/slider4.jpg" alt="NorthQ">
+      			<button type="button" class="slick-prev">Previous</button>
+      			<button type="button" class="slick-next">Next</button></div>
+      		<div class="fade_element">
+      			<img src="images/slider/slider5.jpg" alt="NorthQ">
+      			<button type="button" class="slick-prev">Previous</button>
+      			<button type="button" class="slick-next">Next</button>
+  			</div>
+		</div>
+      </div>
 
     <div class="saveSection">
       <span><i>Save up</i> to</span>
@@ -104,22 +131,24 @@ save energy and create a comfortable and safe environment for you and your famil
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- Slick Slider -->
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+    	$(document).ready(function(){
+			$('.fade').slick({
+			    dots: false,
+				infinite: true,
+				speed: 500,
+				fade: true,
+				pauseOnHover: false
+			});
+			$('.fade_element').addClass('animated fadeIn');
+		});
+    </script>
   </body>
 </html>
