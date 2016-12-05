@@ -64,6 +64,7 @@ h5{
 	right: 0;
 	padding: 1em;
 	margin-bottom: 7%;
+	text-transform: capitalize;
 }
 .slide img{
 	display: inline-block;
@@ -217,6 +218,39 @@ img.mobileImage {
   filter: none;
   -webkit-filter: grayscale(0%);
 
+}
+
+/* Contact Page */
+.contactSlideTop {
+	background: url('../images/contact-back.jpg');
+	background-size:  cover;
+	height:  100vh;
+}
+.contactSLideText {
+	background:  none;
+}
+.contactIcons {
+	min-height: 100vh;
+	background: white;
+	padding: 35px 0;
+	text-align: center;
+}
+.contact-image {
+	width: 195px;
+	height: 195px;
+}
+.contactIcons img {
+    width: 45%;
+    height: auto;
+}
+.contact-text {
+	color: gray;
+}
+h2.contact-text {
+	font-size: 25pt;
+}
+p.contact-text {
+	font-size: 12pt;
 }
 
 /* Media Queries */
