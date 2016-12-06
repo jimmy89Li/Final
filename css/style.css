@@ -64,6 +64,7 @@ h5{
 	right: 0;
 	padding: 1em;
 	margin-bottom: 7%;
+	text-transform: capitalize;
 }
 .slide img{
 	display: inline-block;
@@ -105,15 +106,41 @@ h5{
 	height: 100vh;
 	background-image: url('../images/Slider 1.jpg');
 	background-repeat: no-repeat;
-	background-size: auto 100%;
+	background-size: cover;
 	background-position: center top;
 	position: relative;
 	overflow: hidden;
 }
 .sliderMobilesText {
-	padding-top: 288px;
+	padding-top: 40vh;
 	padding-left: 165px;
 	color: #fff;
+}
+.sliderMobilesPlatforms {
+    position: absolute;
+    bottom: 8vh;
+    left: 165px;
+    color: white;
+}
+.platformsImages {
+    display: flex;
+}
+.windowsPlatform {
+    align-self: flex-end;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+.macPlatform {
+    align-self: flex-end;
+    margin-right: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+.androidPlatform{
+	align-self: flex-end;
+	line-height: 50px;
+	text-align: center;
 }
 .fade {
 	opacity: 1;
@@ -126,14 +153,13 @@ h5{
 	height: 100vh !important;
 }
 .slick-prev {
-	left: initial !important;
-	right: 375px !important;
-	top: 350px !important;
+	left: 100px !important;
+	top: 47vh !important;
 	z-index: 999;
 }
 .slick-next {
-	right: 165px !important;
-	top: 350px !important;
+	right: 100px !important;
+	top: 47vh !important;
 }
 .sliderMobileImage {
 	height: 45vh;
@@ -192,6 +218,39 @@ img.mobileImage {
   filter: none;
   -webkit-filter: grayscale(0%);
 
+}
+
+/* Contact Page */
+.contactSlideTop {
+	background: url('../images/contact-back.jpg');
+	background-size:  cover;
+	height:  100vh;
+}
+.contactSLideText {
+	background:  none;
+}
+.contactIcons {
+	min-height: 100vh;
+	background: white;
+	padding: 35px 0;
+	text-align: center;
+}
+.contact-image {
+	width: 195px;
+	height: 195px;
+}
+.contactIcons img {
+    width: 45%;
+    height: auto;
+}
+.contact-text {
+	color: gray;
+}
+h2.contact-text {
+	font-size: 25pt;
+}
+p.contact-text {
+	font-size: 12pt;
 }
 
 /* Media Queries */
