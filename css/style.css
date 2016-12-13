@@ -326,6 +326,17 @@ p.contact-text {
 .footer hr {
 	margin-bottom: 0;
 }
+.button {
+	color: #005eb8;
+	width: 35%;
+}
+
+a.socialFooter {
+    margin-left: 10px;
+}
+a.socialFooter,a.socialFooter:hover {
+    text-decoration: none;
+}
 
 /* Media Queries */
 
