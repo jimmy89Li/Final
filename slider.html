@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>NorthQ</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+    <!-- Slick SLider -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  </head>
+  <body>
+
+  <div class="sliderMobiles">
+        <div class="sliderMobilesPlatforms">
+          <h3>Available on all platforms</h3>
+          <div class="platformsImages">
+            <div class="windowsPlatform">
+              <img width="135" src="images/slider/win1.png" alt="Windows"><br>
+              <img width="30" src="images/slider/win2.png" alt="Windows"><br>
+            </div>
+            <div class="macPlatform">
+              <img width="45" src="images/slider/mac1.png" alt="Mac"/><br>
+              <img width="30" src="images/slider/mac2.png" alt="Mac"/><br>
+            </div>
+            <div class="androidPlatform">
+              <img width="25" src="images/slider/android1.png" alt="Android"><br>
+              <img width="30" src="images/slider/android2.png" alt="Android"><br>
+            </div>
+          </div>
+        </div>
+        <div class="fade" style="opacity: 1">
+          <div class="fade_element">
+            <div class="sliderMobilesText">
+              <div class="sliderMobileImage">
+              <img class="mobileImage" src="images/slider/mobile1.png" alt="NorthQ">
+              </div>
+              <h2>Make Your Heating As Flexible As You Are</h2>
+              <h4>Something else.</h4>
+            </div>
+          </div>
+          <div class="fade_element">
+            <div class="sliderMobilesText">
+              <div class="sliderMobileImage">
+              <img class="mobileImage" src="images/slider/mobile2.png" alt="NorthQ">
+              </div>
+              <h2>Optimizing Energy Has never Been Easier</h2>
+              <h4>Something else.</h4>
+            </div>
+          </div>
+          <div class="fade_element">
+            <div class="sliderMobilesText">
+              <div class="sliderMobileImage">
+              <img class="mobileImage" src="images/slider/mobile3.png" alt="NorthQ">
+              </div>
+              <h2>Monitor Your Electricity And Gas Consumption</h2>
+              <h4>Something else.</h4>
+            </div>
+          </div>
+          <div class="fade_element">
+            <div class="sliderMobilesText">
+              <div class="sliderMobileImage">
+              <img class="mobileImage" src="images/slider/mobile4.png" alt="NorthQ">
+              </div>
+              <h2>Make All Of Your Appliances Smarter</h2>
+              <h4>Something else.</h4>
+            </div>
+          </div>
+          <div class="fade_element">
+            <div class="sliderMobilesText">
+              <div class="sliderMobileImage">
+              <img class="mobileImage" src="images/slider/mobile5.png" alt="NorthQ">
+              </div>
+              <h2>Control Your Energy Expenses Easily</h2>
+              <h4>Something else.</h4>
+            </div>
+        </div>
+    </div>
+  </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="www.code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!-- Slick Slider -->
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+      $('.fade').slick({
+          dots: false,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        arrows: true,
+        pauseOnHover: false
+      });
+      $('.fade_element').addClass('animated fadeIn');
+    });
+    </script>
+  </body>
+</html>

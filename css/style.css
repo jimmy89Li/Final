@@ -240,6 +240,23 @@ img.mobileImage {
 
 }
 
+/* Products */
+.kits{
+	padding: 20px;
+	color: #005eb8;
+}
+.kits h1{
+	text-align: center;
+	padding: 20px;
+}
+.kits-image{
+	width: 100%;
+	max-width: 300px;
+	padding-top: 15px;
+}
+.kits-text{
+}
+
 /* Support */
 
 .developers {text-align: center;color:gray;padding:25px 0;width: 75%;margin: 0 auto;}
